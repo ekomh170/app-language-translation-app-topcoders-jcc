@@ -4,17 +4,14 @@ require_once('assets/vendor/autoload.php');
 use \Statickidz\GoogleTranslate;
 
 
+$source = 'auto';
+$target = 'en';
 
-
-if (!$_POST['kata_awal']) {
-    $source = 'auto';
-    $target = 'en';
+if (@!$_POST['kata_awal']) {
     $text = "";
     $trans = new GoogleTranslate();
     $result = $trans->translate($source, $target, $text);
 } elseif ($_POST['kata_awal']) {
-    $source = 'auto';
-    $target = 'en';
     $text = $_POST['kata_awal'];
     $trans = new GoogleTranslate();
     $result = $trans->translate($source, $target, $text);
@@ -47,7 +44,11 @@ if (!$_POST['kata_awal']) {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Aplikasi Web</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="cli.php">Aplikasi Cli</a>
                     </li>
                 </ul>
             </div>
@@ -58,11 +59,29 @@ if (!$_POST['kata_awal']) {
 <body>
     <div class="mt-5 mb-5 h4 text-center">Google Translate Sederhana</div>
     <center>
-        <form action="/app-google-translate-jcc/" method="POST">
+        <form class="mb-5" action="/app-google-translate-jcc/" method="POST">
             <div class="card" style="width: 50rem;">
                 <div class="card-body">
                     <h5 class="card-title"></h5>
+                    <div class="mb-3">
+                        <label class="text-left">Pilih Bahasa :</label>
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>-- Pilih bahasa yang ingin di translate --</option>
+                            <option value="id">Indonesia</option>
+                            <option value="en">English</option>
+                            <option value="ja">Japanese</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="text-left">Pilih Bahasa :</label>
 
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>-- Pilih bahasa yang ingin di translate --</option>
+                            <option value="id">Indonesia</option>
+                            <option value="en">English</option>
+                            <option value="ja">Japanese</option>
+                        </select>
+                    </div>
                     <div class="form-floating mb-3">
                         <textarea class="form-control" name="kata_awal" placeholder="Masukan Huruf Kata Yang Diartikan"
                             id="floatingTextarea2" style="height: 100px"><?= $text ?></textarea>
