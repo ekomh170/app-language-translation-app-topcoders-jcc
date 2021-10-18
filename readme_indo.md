@@ -14,10 +14,18 @@ Aplikasi Terjemahan Bahasa ini adalah aplikasi yang berfungsi untuk menerjemahka
 - Api Google
 - Bootstrap 5
 
-## Penjelasan Aplikasi Terjemahan Bahasa Sederhana
+## Penjelasan Aplikasi Terjemahan Bahasa Sederhana dan Aplikasi Cli Terjemahan
 
-- Saya membuat aplikasi terjemahan ini seperti google transalate namun lebih sederhana karena untuk ui nya menggunakan bootstrap 5 dan bahasa pemograman php native. dan saya membuat untuk web terjemahan dan cli terjemahan.<br><br>
+<h3>Ini Ada 2 Aplikasi, Terdiri dari Aplikasi Cli dan Web Terjemahan Sederhana</h3>
 
-- untuk web terjemahan penggunaan seperti google translate masukan pilih bahasa yg ingin digunakan untuk translate, lalu pilih bahasa yg ingin di translate. dan setelah setelah itu masukan kata yang ingin di translate. selesai.<br><br>
+1. Untuk Aplikasi CLI Terjemahan Indonesia ke Inggris<br>
 
-- untuk cli terjemahan dia akan menerjemahkan sebuah file yang ada di, sebuah berkas (direktori) yang bernama "bahan_file_translate/text".
+   - Saya Menggunakan 2 Bahasa Yaitu Bahasa Inggris dan Indonesia<br><br>
+   - Untuk Aplikasi Cli dapat di akses dengan cmd yaitu dengan perintah : php cli.php<br><br>
+   - dan dapat juga di akses di web untuk bahasa terjemahan bahasa english<br><br>
+
+2. Untuk Web Terjemahan Sederhana<br>
+
+   - Saya membuat aplikasi terjemahan ini seperti google transalate namun lebih sederhana karena untuk ui nya menggunakan bootstrap 5 dan bahasa pemograman php native. dan saya membuat untuk web terjemahan dan cli terjemahan.<br><br>
+
+   - untuk web terjemahan penggunaan seperti google translate masukan pilih bahasa yg ingin digunakan untuk translate, lalu pilih bahasa yg ingin di translate. dan setelah setelah itu masukan kata yang ingin di translate. selesai.<br><br>

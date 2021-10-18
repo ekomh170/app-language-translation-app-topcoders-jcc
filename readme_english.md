@@ -14,10 +14,18 @@ This Language Translate app is an app that works to translate texts and websites
 - Google Fire
 - Bootstrap 5
 
-## Simplified Language Translation Application Explanation
+## Explanation of the Simplified Language Translation Application and the Indonesian to English Translation Cli Application
 
-- I made this translation application like google translate but simpler because for the UI it uses bootstrap 5 and the native PHP programming language. and I made a web translation and clicked on the translation.<br><br>
+<h3>There are 2 Applications, Consisting of Cli Application and Simple Translated Web</h3>
 
-- for web translation use like google translate, select the input language you want to use to translate, then select the language you want to translate. and after that enter the word you want to translate. done.<br><br>
+1. Cl App Indonesian to English Translation
 
-- for translation cli it will translate the file it is in, (directory) named "bahan_file_translate/text".
+   - I use 2 languages, namely English and Indonesian<br><br>
+   - Cli applications can be accessed with cmd, namely with the command: php cli.php<br><br>
+   - and can also be accessed on the web for English translation <br><br>
+
+2. For Web Simple Translation
+
+   - I made this translation application like google translate but simpler because for the ui it uses bootstrap 5 and the native php programming language. and I made for web translation and translation click.<br><br>
+
+   - for web translation usage such as google translate, select the input language you want to use to translate, then select the language you want to translate. and after that enter the word you want to translate. done.<br><br>

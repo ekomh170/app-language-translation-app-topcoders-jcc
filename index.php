@@ -70,8 +70,15 @@ if (@$_POST['submit']) {
         <form class="mb-5" action="/app-google-translate-jcc/" method="POST">
             <div id="myform" class="card border-dark myform" style="width: 50rem;">
                 <div class="card-body text-dark">
-                    <h5 class="card-title">Aplikasi Terjemahan Sederhana</h5>
-                    <hr style="width:50%;">
+                    <h5 class="card-title text-center">Aplikasi Terjemahan Sederhana</h5>
+
+                    <center>
+                        <hr style="width:50%;">
+
+                        <a href="cli.php" class="btn btn-outline-danger">Aplikasi CLI</a>
+
+                        <hr style="width:50%;">
+                    </center>
 
                     <div class="mb-5">
                         <label class="text-start fw-bold">Pilih Bahasa yang akan di terjemahan :</label>
