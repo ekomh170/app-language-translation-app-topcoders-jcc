@@ -67,7 +67,7 @@ if (@$_POST['submit']) {
 <body>
     <div class="mt-5 mb-5 h4 text-center"></div>
     <div class="d-flex justify-content-center">
-        <form class="mb-5" action="/app-google-translate-jcc/" method="POST">
+        <form class="mb-5" action="" method="POST">
             <div id="myform" class="card border-dark myform" style="width: 50rem;">
                 <div class="card-body text-dark">
                     <h5 class="card-title text-center">Aplikasi Terjemahan Sederhana</h5>
