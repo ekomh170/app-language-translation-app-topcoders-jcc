@@ -29,3 +29,10 @@ Aplikasi Terjemahan Bahasa ini adalah aplikasi yang berfungsi untuk menerjemahka
    - Saya membuat aplikasi terjemahan ini seperti google transalate namun lebih sederhana karena untuk ui nya menggunakan bootstrap 5 dan bahasa pemograman php native. dan saya membuat untuk web terjemahan dan cli terjemahan.<br><br>
 
    - untuk web terjemahan penggunaan seperti google translate masukan pilih bahasa yg ingin digunakan untuk translate, lalu pilih bahasa yg ingin di translate. dan setelah setelah itu masukan kata yang ingin di translate. selesai.<br><br>
+
+## Tampilan Aplikasi
+
+<h3>Halaman Terjemahan UI :</h3>
+<img src="assets_readme/img/ui_halaman.PNG" alt="Aplikasi Terjemahan UI">
+<h3>Halaman CLI :</h3>
+<img src="assets_readme/img/cli_halaman.PNG" alt="Aplikasi Terjemahan UI">
