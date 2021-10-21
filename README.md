@@ -6,12 +6,12 @@
 
 ## Tantangan Praktik Pengembangan: Membangun Aplikasi Terjemahan Bahasa
 
-Aplikasi Terjemahan Bahasa ini adalah aplikasi yang berfungsi untuk menerjemahkan teks dan situs web dari satu bahasa ke bahasa lain. dan tujuan saya membuat ini untuk menyelesaikan tantangan jabar coding camp (jcc).
+Aplikasi Terjemahan Bahasa ini adalah aplikasi yang berfungsi untuk menerjemahkan teks dan situs web dari satu bahasa ke bahasa lain. dan tujuan saya membuat ini untuk menyelesaikan tantangan jabar coding camp (jcc) dari topcoders.
 
 ## Teknologi Yang Digunakan
 
 - PHP Native (Version 7.4)
-- Api Google
+- API Google
 - Bootstrap 5
 
 ## Penjelasan Aplikasi Terjemahan Bahasa Sederhana dan Aplikasi Cli Terjemahan
